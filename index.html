@@ -11,17 +11,27 @@
 
     <body oncontextmenu="return false">
     <navbar>
-        <nav class="navbar justify-content-center navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar justify-content-center bg-body-tertiary">
+            <div class="container-fluid justify-content-center">
                 <a class="navbar-brand" href="#">
-                    <img src="images/apple-logo.png" alt="Logo" width="30px" height="30px" class="d-inline-block align-text-top">
-                    i-Shivam
+                  <img src="images/apple-logo.png" alt="Logo" width="30px" height="30px" class="d-inline-block align-text-top">
+                  i-Shivam
                 </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                
+              <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+              <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse justify-content-center navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+                
+                <ul class="nav justify-content-center">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
@@ -31,7 +41,7 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Pricing</a>
                   </li>
-                  <li class="nav-item dropdown">
+                  <li class="nav-item dropdown justify-content-center">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Dropdown link
                     </a>
@@ -43,20 +53,15 @@
                   </li>
                 </ul>
               </div>
-              <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
             </div>
           </nav>
 
     </navbar>
 
     <hero>
+      <div class="carousel-item active">
+        <img src="images/port.png" class="d-block w-100" alt="...">
+      </div>
 
     </hero>
 
